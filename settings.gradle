@@ -1,0 +1,2 @@
+rootProject.name='smk coding project 1'
+include ':app'
