@@ -23,6 +23,8 @@ class ProfileActivity : AppCompatActivity() {
         btn_editnama.setOnClickListener { navigasiEditProfile() }
 
         btn_dial.setOnClickListener { dialPhoneNumber(tv_telp.text.toString()) }
+
+        btn_about.setOnClickListener { about() }
     }
 
     //fungsi Pengambil Data
@@ -77,5 +79,10 @@ class ProfileActivity : AppCompatActivity() {
         if(intent.resolveActivity(packageManager) != null){
             startActivity(intent)
         }
+    }
+
+    private fun about(){
+        val intent = Intent(this, AboutActivity::class.java)
+        startActivity(intent)
     }
 }
