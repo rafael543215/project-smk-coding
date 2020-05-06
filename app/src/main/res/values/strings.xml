@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">smk coding project 1</string>
+    <string name="app_name">Form Biodata</string>
     <string-array name="array">
         <item>Pilih Jenis Kelamin</item>
         <item>Laki-laki</item>
