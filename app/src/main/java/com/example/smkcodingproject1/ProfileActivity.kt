@@ -38,12 +38,12 @@ class ProfileActivity : AppCompatActivity() {
         val alamat = bundle?.getString("alamat")
         val umur = bundle?.getString("umur")
 
-        tv_nama.text = nama
-        tv_jeniskelamin.text = jeniskelamin
-        tv_email.text = email
-        tv_telp.text = telp
-        tv_alamat.text = alamat
-        tv_umur.text = umur
+        tv_nama.text = ":  " + nama
+        tv_jeniskelamin.text = ":  " + jeniskelamin
+        tv_email.text = ":  " + email
+        tv_telp.text = ":  " + telp
+        tv_alamat.text = ":  " + alamat
+        tv_umur.text = ":  " + umur
 
     }
 
