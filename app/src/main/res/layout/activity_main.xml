@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00FF00"
+    android:background="@drawable/custom_background"
+    android:padding="15dp"
     >
 
 
@@ -12,7 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="15dp"
         tools:context=".MainActivity">
 
 
@@ -21,23 +21,23 @@
             android:layout_height="wrap_content"
             android:text="Harap Isi Form Biodata"
             android:gravity="center"
-            android:layout_margin="20dp"
             android:textSize="30dp"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:fontFamily="sans-serif"/>
+            android:fontFamily="@font/bold"
+            android:layout_margin="20dp"/>
         <EditText
-        android:id="@+id/et_nama"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Nama"
-        android:layout_marginTop="15dp"
-        android:padding="10dp"
-        android:background="@drawable/custom_et1"
-        />
+            android:id="@+id/et_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Nama"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:background="@drawable/custom_et1"
+            />
 
     <Spinner
         android:id="@+id/spinner"

@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/custom_background"
+    android:padding="15dp"
     >
 
     <LinearLayout
@@ -19,9 +21,10 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="Biodata"
-            android:fontFamily="sans-serif-black"/>
+            android:fontFamily="@font/bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/iv_profile"
@@ -40,13 +43,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="Nama :"/>
+                android:text="Nama :"
+                android:textColor="@color/black"/>
             <TextView
                 android:id="@+id/tv_nama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Dummy text"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
 
         </LinearLayout>
         <LinearLayout
@@ -58,13 +63,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="Jenis Kelamin :"/>
+                android:text="Jenis Kelamin :"
+                android:textColor="@color/black"/>
             <TextView
                 android:id="@+id/tv_jeniskelamin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Dummy text"/>
+                android:text="Dummy text"
+                android:textColor="@color/black"/>
 
         </LinearLayout>
         <LinearLayout
@@ -76,13 +83,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Umur (th) :"
-                android:layout_weight="2"/>
+                android:layout_weight="2"
+                android:textColor="@color/black"/>
             <TextView
                 android:id="@+id/tv_umur"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Dummy text"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
 
         </LinearLayout>
         <LinearLayout
@@ -94,13 +103,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Email :"
-                android:layout_weight="2"/>
+                android:layout_weight="2"
+                android:textColor="@color/black"/>
             <TextView
                 android:id="@+id/tv_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Dummy text"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
 
         </LinearLayout>
         <LinearLayout
@@ -112,13 +123,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Telp :"
-                android:layout_weight="2"/>
+                android:layout_weight="2"
+                android:textColor="@color/black"/>
             <TextView
                 android:id="@+id/tv_telp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Dummy text"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
 
         </LinearLayout>
         <LinearLayout
@@ -130,13 +143,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Alamat :"
-                android:layout_weight="2"/>
+                android:layout_weight="2"
+                android:textColor="@color/black"/>
             <TextView
                 android:id="@+id/tv_alamat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Dummy text"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
 
         </LinearLayout>
 
@@ -150,19 +165,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Edit Nama" />
+            android:text="Edit Nama"
+            android:background="@drawable/custom_button"
+            android:layout_margin="5dp"/>
         <Button
             android:id="@+id/btn_dial"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Dial" />
+            android:text="Dial"
+            android:background="@drawable/custom_button"
+            android:layout_margin="5dp"/>
         <Button
             android:id="@+id/btn_about"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="About" />
+            android:text="About"
+            android:background="@drawable/custom_button"
+            android:layout_margin="5dp"/>
         </LinearLayout>
 
     </LinearLayout>
