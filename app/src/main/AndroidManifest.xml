@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.smkcodingproject1">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
@@ -20,6 +23,8 @@
         <activity android:name=".EditNameActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".MainActivity"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAm0AFFphSMDRK9yiG1DkzArJxQJvRqeeI"/>
     </application>
-
 </manifest>
